@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "today-weather": "/component/todayWeather/todayWeather",
+    "hours-weather": "/component/hoursWeather/hoursWeather",
+    "hours-line": "/component/hoursLine/hoursLine",
+    "days-weather": "/component/daysWeather/daysWeather",
+    "hours-weather-card": "/component/hoursWeatherCard/hoursWeatherCard",
+    "days-weather-card": "/component/daysWeatherCard/daysWeatherCard",
+    "city-weather-indices": "/component/cityWeatherIndices/cityWeatherIndices"
+  }
+}

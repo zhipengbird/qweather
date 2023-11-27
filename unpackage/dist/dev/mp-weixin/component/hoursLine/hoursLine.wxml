@@ -1,0 +1,1 @@
+<view><view class="charts"><l-echart class="vue-ref" vue-id="428c7adf-1" isDisableScroll="{{false}}" enableHover="{{true}}" data-ref="chart" data-event-opts="{{[['^finished',[['init']]]]}}" bind:finished="__e" bind:__l="__l"></l-echart></view></view>

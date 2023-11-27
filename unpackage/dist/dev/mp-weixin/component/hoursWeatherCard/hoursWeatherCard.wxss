@@ -1,0 +1,23 @@
+.c-city-weather-hour24 {
+  border-radius: 16px;
+  background-color: #F7F8F9;
+  border: 1px solid #F2F4FA;
+  padding: 30px 0 24px;
+  margin: 3%;
+}
+.c-city-weather-hour24 .city-hour24__chart {
+  margin: 10px 20px 5px;
+  height: 153px;
+}
+.c-city-weather-hour24 .hour24 {
+  padding: 0 22px 0 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-city-weather-hour24 .hour24 .hour24__item .icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+

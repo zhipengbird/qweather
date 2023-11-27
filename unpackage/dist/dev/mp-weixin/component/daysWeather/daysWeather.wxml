@@ -1,0 +1,1 @@
+<view><block wx:if="{{daily}}"><view class="charts"><l-echart class="vue-ref" vue-id="e7e7792a-1" isDisableScroll="{{false}}" enableHover="{{true}}" data-ref="chart" data-event-opts="{{[['^finished',[['init']]]]}}" bind:finished="__e" bind:__l="__l"></l-echart></view></block></view>

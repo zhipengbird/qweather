@@ -1,0 +1,7 @@
+.charts {
+  display: flexbox;
+  flex-direction: row;
+  flex-grow: 2;
+  margin: 5%;
+}
+

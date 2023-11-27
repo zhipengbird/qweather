@@ -1,0 +1,18 @@
+{
+	"id": "weather",
+	"name": "hefengweather",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"echarts": "^5.4.3",
+		"heracles": "^1.0.0",
+		"vconsole": "^3.15.1",
+		"vuex": "^4.1.0"
+	}
+}

@@ -1,0 +1,6 @@
+.charts {
+  display: flex;
+  margin: 1%;
+  flex-grow: 2;
+}
+

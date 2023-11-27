@@ -1,0 +1,90 @@
+.c-city-weather-forecast {
+  padding: 30px 0 20px;
+  border-radius: 16px;
+  background-color: #F7F8F9;
+  border: 1px solid #F2F4FA;
+  margin: 20rpx;
+}
+.c-city-weather-forecast .qweather-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #000000;
+  text-align: center;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs {
+  margin-top: 28px;
+  padding: 0 24px;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row {
+  padding: 9px 0;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .date-bg {
+  display: flex;
+  flex: 0 0 143rpx;
+  width: 0;
+  flex-direction: row;
+  white-space: nowrap;
+  margin: 0 41px 0 0;
+  align-items: center;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .date-bg .date {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 36rpx;
+  line-height: 1;
+  color: #000000;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .date-bg .icon {
+  font-size: 60rpx;
+  text-align: center;
+  padding-left: 20rpx;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .tmp-line-bg {
+  display: flex;
+  align-items: center;
+  flex: 1 0;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .tmp-line-bg .spance {
+  width: 0;
+  max-width: calc(100% - 95px);
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .tmp-line-bg .tmp-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1 0;
+  width: 0;
+  min-width: 95rpx;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .tmp-line-bg .tmp-cont .temp {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--text-black-1);
+  white-space: nowrap;
+  text-align: right;
+  flex: 0 0 42px;
+  padding-right: 4px;
+  padding-left: 0;
+  width: 0;
+}
+.c-city-weather-forecast .city-weather-forecast__tabs .city-forecast-tabs__row .tmp-line-bg .tmp-cont .tmp-line {
+  display: inline-block;
+  vertical-align: middle;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0;
+  background-image: linear-gradient(to right, #F18360, #427BFF);
+  flex: 1 0;
+  width: 0;
+}
+
